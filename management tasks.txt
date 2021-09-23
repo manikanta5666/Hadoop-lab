@@ -2,8 +2,8 @@
 bash: hadoopfs: command not found
 [cloudera@localhost hadoop]$ hadoopfs
 bash: hadoopfs: command not found
-[cloudera@localhost hadoop]$ hadoopfs–ls 
-bash: hadoopfs–ls: command not found
+[cloudera@localhost hadoop]$ hadoopfsâ€“ls 
+bash: hadoopfsâ€“ls: command not found
 [cloudera@localhost hadoop]$ hadoop fs -ls
 Found 24 items
 drwx------   - cloudera cloudera          0 2019-07-25 20:43 .Trash
@@ -292,8 +292,8 @@ drwxr-xr-x   - solr  solr                0 2013-10-07 08:18 /solr
 drwxrwxrwx   - hdfs  supergroup          0 2016-07-15 03:26 /tmp
 drwxr-xr-x   - hdfs  supergroup          0 2013-10-07 08:20 /user
 drwxr-xr-x   - hdfs  supergroup          0 2013-10-07 08:18 /var
-[cloudera@localhost hadoop]$  hadoop fs –mkdir /user/cloudera/dezyre1
-–mkdir: Unknown command
+[cloudera@localhost hadoop]$  hadoop fs â€“mkdir /user/cloudera/dezyre1
+â€“mkdir: Unknown command
 [cloudera@localhost hadoop]$ hadoop fs -mkdir / user/cloudera/denzyrel
 mkdir: `/': File exists
 [cloudera@localhost hadoop]$ hadoop fs -ls-R/user/cloudera
@@ -301,7 +301,7 @@ mkdir: `/': File exists
 [cloudera@localhost hadoop]$ hadoop fs -touchz
 -touchz: Not enough arguments: expected 1 but got 0
 Usage: hadoop fs [generic options] -touchz <path> ...
-[cloudera@localhost hadoop]$ $ hadoop fs –get 
+[cloudera@localhost hadoop]$ $ hadoop fs â€“get 
 bash: $: command not found
 [cloudera@localhost hadoop]$ hadoop fs -get
 -get: Not enough arguments: expected 1 but got 0
@@ -319,7 +319,7 @@ Usage: hadoop fs [generic options] -tail [-f] <file>
 Usage: hadoop fs [generic options] -tail [-f] <file>
 [cloudera@localhost hadoop]$ hadoop fs -move
 -move: Unknown command
-[cloudera@localhost hadoop]$ $ hadoop fs –cp /user/cloudera/dezyre/war_and_peace /user/cloudera/dezyre1/
+[cloudera@localhost hadoop]$ $ hadoop fs â€“cp /user/cloudera/dezyre/war_and_peace /user/cloudera/dezyre1/
 bash: $: command not found
 [cloudera@localhost hadoop]$ hadoop fs -cat
 -cat: Not enough arguments: expected 1 but got 0
